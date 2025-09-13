@@ -1,4 +1,42 @@
 
-nav {
-    background-color: darkblue ;
-padding: 10px; }
+/* Main area limited width */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Profile picture only inside main */
+main img {
+  width: 150px;
+  height: auto;
+}
+
+/* New aside styles */
+aside {
+  width: 250px;
+  margin: 20px auto;
+  border: 1px solid #333;
+  padding: 10px;
+  background-color: #f0f0f0;
+  color: #222;
+}
+
+aside img {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+
+/* Reset paragraph padding */
+p {
+  padding: 0;
+}
+
+/* Footer styling */
+footer {
+  margin-top: 20px;
+  border-top: 2px solid #333;
+  text-align: center;
+  padding-top: 10px;
+}
