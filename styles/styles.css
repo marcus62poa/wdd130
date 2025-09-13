@@ -1,17 +1,36 @@
 
-/* Main area limited width */
+nav {
+  background-color: #333; /* exemplo de cor */
+  padding: 10px;
+}
+
+
+nav a {
+  color: #fff; /* exemplo de cor */
+  padding: 8px;
+  display: block;
+  text-decoration: none;
+}
+
+h1 {
+  color: #444; /* exemplo de cor */
+}
+
 main {
   max-width: 800px;
   margin: 0 auto;
 }
 
-/* Profile picture only inside main */
+
 main img {
   width: 150px;
   height: auto;
+  border: 2px solid #ccc;
+  padding: 5px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 }
 
-/* New aside styles */
+
 aside {
   width: 250px;
   margin: 20px auto;
@@ -21,6 +40,7 @@ aside {
   color: #222;
 }
 
+
 aside img {
   width: 200px;
   height: auto;
@@ -28,12 +48,12 @@ aside img {
   margin: 10px auto;
 }
 
-/* Reset paragraph padding */
+
 p {
   padding: 0;
 }
 
-/* Footer styling */
+
 footer {
   margin-top: 20px;
   border-top: 2px solid #333;
