@@ -6,12 +6,11 @@
   <title>White Water Rafting | About Us</title>
   <meta name="description" content="About Us page for the White Water Rafting company. Learn about our mission, history, and adventures.">
   <meta name="author" content="Marcus de Souza Gomes">
-
   <link rel="stylesheet" href="styles/rafting.css">
 </head>
 <body>
-  <header>
-    <img src="images/logo-white.jpg" alt="Rafting Site Logo" width="100" >
+  <header class="header">
+    <img src="images/logo-white.jpg" alt="Rafting Site Logo" width="100">
     <nav>
       <a href="index.html">Home</a>
       <a href="about.html">About Us</a>
@@ -21,8 +20,9 @@
   </header>
 
   <main>
+    <!-- Hero Section -->
     <div class="hero">
-      <img src="images/hero.jpg" alt="Rafting Adventure" height="300">
+      <img src="images/hero.jpg" alt="Rafting Adventure" height="200">
       <h1>White Water Rafting Co.</h1>
       <article>
         <img src="images/happy-client.jpeg" alt="Happy Client">
@@ -34,26 +34,58 @@
       </article>
     </div>
 
-    <section>
+    <!-- History Section -->
+    <section class="history">
       <h2>History</h2>
-      <p>
-        White Water Rafting Co. was founded with a passion for adventure and the outdoors.  
-        Over the years, we have grown into a trusted company providing safe and thrilling rafting trips.  
-        From small beginnings to becoming a leader in rafting, our story is one of dedication and adventure.
-      </p>
+      <div class="history-grid">
+        <p>
+          White Water Rafting Co. was founded with a passion for adventure and the outdoors.  
+          Over the years, we have grown into a trusted company providing safe and thrilling rafting trips.  
+          From small beginnings to becoming a leader in rafting, our story is one of dedication and adventure.
+        </p>
+        <img src="images/history-low.jpg" alt="Rafting History">
+        <p>
+          Our mission is to inspire people to explore rivers and connect with nature.  
+          Every trip tells a story of courage, teamwork, and fun.  
+          We continue to grow with the same adventurous spirit that started it all.
+        </p>
+      </div>
     </section>
 
-    <section>
+    <!-- Adventure Section -->
+    <section class="adventures">
       <h2>Adventure Awaits You!</h2>
-      <p> <!-- placeholder, images will come in future steps --> </p>
+      <div class="adventure-gallery">
+        <figure>
+          <img src="images/los-dentes.jpg" alt="Los Dientes del Diablo">
+          <figcaption>Los Dientes del Diablo</figcaption>
+        </figure>
+        <figure>
+          <img src="images/big-mallard.jpg" alt="Big Mallard">
+          <figcaption>Big Mallard</figcaption>
+        </figure>
+        <figure>
+          <img src="images/half-day.jpg" alt="Half Day Adventure">
+          <figcaption>Half Day Adventure</figcaption>
+        </figure>
+        <figure>
+          <img src="images/the-great.jpg" alt="The Great Rapids">
+          <figcaption>The Great Rapids</figcaption>
+        </figure>
+        <figure>
+          <img src="images/wild.jpg" alt="Wild River Run">
+          <figcaption>Wild River Run</figcaption>
+        </figure>
+      </div>
     </section>
   </main>
 
+  <!-- Footer -->
   <footer>
     <p>&copy;2025 White Water Rafting Co. | Marcus de Souza Gomes</p>
     <nav class="socialmedia">
       <a href="https://facebook.com">
-        <img src="images/facebook-logo.jpg" alt="facebook" >
+        <img src="images/facebook-logo.jpg" alt="Facebook">
       </a>
       <a href="https://twitter.com">
         <img src="images/x-twitter-logo.jpg" alt="Twitter">
