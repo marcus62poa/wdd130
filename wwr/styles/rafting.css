@@ -39,16 +39,17 @@ h1, h2 {
 /*  HEADER  */
 .header {
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 10% 10% 10% 70%;
   align-items: center;
-  padding: 10px;
+  margin-top: 10px;
+  padding: 20px;
   background-color: var(--accent1-color);
   border-bottom: 2px solid var(--primary-color);
 }
 
 .header img {
-  display: flex;
-  justify-content: flex-end;
+  display: grid;
+  grid-column-start: 3;
  
   max-width: 100px;
 }
@@ -169,24 +170,27 @@ h1, h2 {
 
 /*  FOOTER  */
 footer {
+  position: relative; 
   border-top: 2px solid var(--primary-color);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  text-align: center; 
   padding: 12px;
   font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+footer p {
+  margin: 0;
 }
 
 .socialmedia {
+  position: absolute;
+  top: 50%;             
+  right: 20px;          
+  transform: translateY(-50%); 
   display: flex;
   gap: 12px;
 }
 
 .socialmedia img {
   width: 28px;
-}
-.p p {
-  display: grid;
-  justify-content: center;
-
 }
