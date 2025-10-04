@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="styles/rafting.css">
 </head>
 <body>
-  <!-- Header - Same as all pages -->
   <header class="header">
     <img src="images/white-logo-png-low.png" alt="Rafting Site Logo">
     <nav>
@@ -20,18 +19,20 @@
     </nav>
   </header>
 
-  <main>
-    <h1>Contact Us</h1>
+  <main class="contact-main">
+    
 
-    <!-- Company Information Section -->
-    <section class="company-info">
-      <h2>Our Office</h2>
-      <p><strong>Address:</strong> 123 Rapids Avenue, River City, CO 81000</p>
-      <p><strong>Phone:</strong> +1 (970) 555-1234</p>
-      <p><strong>Email:</strong> info@whitewaterraftingco.com</p>
+    <!-- BLOCO 1 - Info da Empresa -->
+    <section class="contact-company">
+      <h2>White Water Rafting Company</h2>
+      <p>123 Main River Street<br>Kolob, California</p>
+      <p>+1 999 999 9999<br>
+      <a href="mailto:info@whitewater.com">info@whitewater.com</a></p>
+    </section>
 
-      <!-- Embedded Google Map -->
-      <div class="map-container">
+    <!-- BLOCO 2 - Mapa e Formulário lado a lado -->
+    <section class="contact-content">
+      <div class="contact-map">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3068.203278813835!2d-105.2705459!3d40.0157202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876bf1b2f5a9471b%3A0xd79a2fef8a8fdab0!2sBoulder%2C%20CO!5e0!3m2!1sen!2sus!4v1695748421430!5m2!1sen!2sus"
           allowfullscreen
@@ -39,69 +40,60 @@
           referrerpolicy="no-referrer-when-downgrade">
         </iframe>
       </div>
+
+      <div class="contact-form">
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <fieldset>
+            <legend>Message Purpose:</legend>
+            <label><input type="radio" name="purpose" value="general" required> General Inquiry</label><br>
+            <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label><br>
+            <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+          </fieldset>
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <label><input type="checkbox" id="subscribe" name="subscribe"> Please subscribe me to the monthly newsletter</label>
+
+          <button type="submit">Get in Touch!</button>
+        </form>
+      </div>
     </section>
 
-    <!-- Employees Section -->
-    <section class="employees">
-      <h2>Meet Our Team</h2>
-      <div class="employee-gallery">
+    <!-- BLOCO 3 - Funcionários -->
+    <section class="contact-employees">
+      <h2>We Are Here to Serve You</h2>
+      <div class="contact-employee-gallery">
         <figure>
-          <img src="images/employee1.jpg" alt="John Carter - Lead Guide">
+          <img src="images/Jhon-low.jpg" alt="John Carter - Lead Guide">
           <figcaption>John Carter - Lead Guide</figcaption>
         </figure>
         <figure>
-          <img src="images/employee2.jpg" alt="Sarah Lopez - Reservation Manager">
+          <img src="images/sarah-low.jpg" alt="Sarah Lopez - Reservation Manager">
           <figcaption>Sarah Lopez - Reservation Manager</figcaption>
         </figure>
         <figure>
-          <img src="images/employee3.jpg" alt="Mike Thompson - Safety Coordinator">
+          <img src="images/mike-low.jpg" alt="Mike Thompson - Safety Coordinator">
           <figcaption>Mike Thompson - Safety Coordinator</figcaption>
         </figure>
       </div>
     </section>
-
-    <!-- Contact Form Section -->
-    <section class="contact-form">
-      <h2>Send Us a Message</h2>
-      <form>
-        <label for="name">Full Name:</label>
-        <input type="text" id="name" name="name" required>
-
-        <label for="email">Email Address:</label>
-        <input type="email" id="email" name="email" required>
-
-        <fieldset>
-          <legend>Purpose of Your Message:</legend>
-          <label><input type="radio" name="purpose" value="general" required> General Inquiry</label><br>
-          <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label><br>
-          <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
-        </fieldset>
-
-        <label for="message">Your Message:</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
-
-        <label><input type="checkbox" id="subscribe" name="subscribe"> Please subscribe me to the monthly newsletter</label>
-
-        <button type="submit">Send Message</button>
-      </form>
-    </section>
   </main>
 
-  <!-- Footer - Same across all pages -->
   <footer>
     <nav class="p">
       <p>&copy;2025 White Water Rafting Co. | Marcus de Souza Gomes</p>
     </nav>
     <nav class="socialmedia">
-      <a href="https://facebook.com">
-        <img src="images/facebook-logo.jpg" alt="Facebook">
-      </a>
-      <a href="https://twitter.com">
-        <img src="images/x-twitter-logo.jpg" alt="Twitter">
-      </a>
-      <a href="https://instagram.com">
-        <img src="images/instagram-logo.jpg" alt="Instagram">
-      </a>
+      <a href="https://facebook.com"><img src="images/facebook-logo.jpg" alt="Facebook"></a>
+      <a href="https://twitter.com"><img src="images/x-twitter-logo.jpg" alt="Twitter"></a>
+      <a href="https://instagram.com"><img src="images/instagram-logo.jpg" alt="Instagram"></a>
     </nav>
   </footer>
 </body>
