@@ -203,7 +203,7 @@ footer p {
   margin-top: 30px;
 }
 
-/* BLOCk */
+/* BLOCO 1 */
 .contact-company {
   margin-bottom: 40px;
   line-height: 1.6;
@@ -220,7 +220,7 @@ footer p {
   text-decoration: none;
 }
 
-/* BLOCk 2*/
+/* BLOCO 2 */
 .contact-content {
   display: flex;
   justify-content: center;
@@ -251,11 +251,10 @@ footer p {
   border-radius: 8px;
   padding: 25px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  height: 450px;             /* 👈 mesma altura do mapa */
-  overflow-y: auto;          /* this is very creazii , incredibal learn this funtionality */
+  height: 450px;
+  overflow-y: auto;
   box-sizing: border-box;
 }
-
 
 .contact-form label {
   display: block;
@@ -272,6 +271,17 @@ footer p {
   border-radius: 5px;
 }
 
+/* Radio buttons e checkbox alinhados à esquerda */
+.contact-form fieldset label,
+.contact-form .newsletter {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 6px;
+  font-weight: normal;
+}
+
+/* Fieldset */
 .contact-form fieldset {
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -279,6 +289,7 @@ footer p {
   padding: 10px;
 }
 
+/* Botton */
 .contact-form button {
   width: 100%;
   background-color: var(--accent1-color);
@@ -295,7 +306,7 @@ footer p {
   background-color: var(--primary-color);
 }
 
-/* BLOCO 3 - Funcionários */
+/* BLOC 3 */
 .contact-employees {
   background-color: #eee;
   padding: 40px 10px;
