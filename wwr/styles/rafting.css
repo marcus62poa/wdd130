@@ -251,7 +251,11 @@ footer p {
   border-radius: 8px;
   padding: 25px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  height: 450px;             /* 👈 mesma altura do mapa */
+  overflow-y: auto;          /* this is very creazii , incredibal learn this funtionality */
+  box-sizing: border-box;
 }
+
 
 .contact-form label {
   display: block;
