@@ -203,7 +203,7 @@ footer p {
   margin-top: 30px;
 }
 
-/* BLOCO 1 - Info da Empresa */
+/* BLOCk */
 .contact-company {
   margin-bottom: 40px;
   line-height: 1.6;
@@ -220,7 +220,7 @@ footer p {
   text-decoration: none;
 }
 
-/* BLOCO 2 - Mapa e Formulário lado a lado */
+/* BLOCk 2*/
 .contact-content {
   display: flex;
   justify-content: center;
