@@ -195,15 +195,14 @@ footer p {
   width: 28px;
 }
 /* ===========================
-   CONTACT PAGE LAYOUT
-   =========================== */
+   CONTACT PAGE LAYOUT */
 
 .contact-main {
   text-align: center;
   margin-top: 30px;
 }
 
-/* BLOCO 1 */
+/* BLOCk 1 */
 .contact-company {
   margin-bottom: 40px;
   line-height: 1.6;
@@ -220,7 +219,7 @@ footer p {
   text-decoration: none;
 }
 
-/* BLOCO 2 */
+/* BLOCk 2 */
 .contact-content {
   display: flex;
   justify-content: center;
@@ -238,13 +237,13 @@ footer p {
   border-radius: 8px;
 }
 
-/* Cada lado ocupa o mesmo espaço */
+
 .contact-map,
 .contact-form {
   flex: 1;
 }
 
-/* Formulário */
+
 .contact-form {
   text-align: left;
   background-color: #fff;
@@ -271,7 +270,7 @@ footer p {
   border-radius: 5px;
 }
 
-/* Radio buttons e checkbox alinhados à esquerda */
+
 .contact-form fieldset label,
 .contact-form .newsletter {
   display: flex;
@@ -281,7 +280,7 @@ footer p {
   font-weight: normal;
 }
 
-/* Fieldset */
+
 .contact-form fieldset {
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -289,7 +288,7 @@ footer p {
   padding: 10px;
 }
 
-/* Botton */
+
 .contact-form button {
   width: 100%;
   background-color: var(--accent1-color);
