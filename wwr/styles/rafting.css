@@ -629,3 +629,49 @@ footer p {
 .home-newsletter button:hover {
   background-color: var(--primary-color);
 }
+/* ===== Trip Summary Table ===== */
+.trip-summary {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.trip-summary h2 {
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+  font-size: 1.8rem;
+}
+
+.trip-summary table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.trip-summary th,
+.trip-summary td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+.trip-summary th {
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.trip-summary tr:nth-child(even) {
+  background-color: #eef6f8;
+}
+
+.trip-summary tr:hover {
+  background-color: #d9f0f5;
+  transition: 0.3s;
+}
