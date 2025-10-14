@@ -516,3 +516,116 @@ footer p {
 .trips-page .newsletter button:hover {
   background-color: #005f77;
 }
+/* ==========================
+   HOME PAGE STYLES (isolated)
+   ========================== */
+
+.home-page .hero h1 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 70, 102, 0.8);
+  color: white;
+  padding: 15px 25px;
+  border-radius: 8px;
+  font-size: 2rem;
+}
+
+.home-intro {
+  text-align: center;
+  margin: 50px auto;
+  max-width: 900px;
+}
+
+.home-intro h2 {
+  margin-bottom: 20px;
+  color: var(--primary-color);
+}
+
+.home-intro .home-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.home-intro img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.home-intro .home-text {
+  text-align: left;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* CTA */
+.home-cta {
+  text-align: center;
+  background-color: #eef6f9;
+  padding: 60px 20px;
+  margin-top: 40px;
+}
+
+.home-cta h2 {
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+.home-cta p {
+  max-width: 600px;
+  margin: 0 auto 20px;
+}
+
+.home-cta .btn {
+  background-color: var(--accent1-color);
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.home-cta .btn:hover {
+  background-color: var(--primary-color);
+}
+
+/* NEWSLETTER */
+.home-newsletter {
+  text-align: center;
+  background-color: #fff;
+  padding: 50px 20px;
+  border-top: 2px solid var(--primary-color);
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.home-newsletter form {
+  margin-top: 20px;
+}
+
+.home-newsletter input[type="text"],
+.home-newsletter input[type="email"] {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 220px;
+}
+
+.home-newsletter button {
+  padding: 10px 15px;
+  background-color: var(--accent1-color);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.home-newsletter button:hover {
+  background-color: var(--primary-color);
+}
