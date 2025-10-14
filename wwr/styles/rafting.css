@@ -675,3 +675,40 @@ footer p {
   background-color: #d9f0f5;
   transition: 0.3s;
 }
+/* ===== CALL TO ACTION (Ponto 9) ===== */
+.cta {
+  background-color: #0a6d94;
+  color:#0a6d94;;
+  text-align: center;
+  padding: 60px 20px;
+  border-radius: 10px;
+  margin: 50px auto;
+  max-width: 900px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+
+.cta h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.cta p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+.cta .btn-primary {
+  background-color: #fff;
+  color: #0a6d94;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.cta .btn-primary:hover {
+  background-color: #0a6d94;;
+  transform: translateY(-3px);
+}
